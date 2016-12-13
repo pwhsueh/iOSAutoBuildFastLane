@@ -13,6 +13,8 @@
 		502435A51DFFEC800011049D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502435A41DFFEC800011049D /* Assets.xcassets */; };
 		502435A81DFFEC800011049D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502435A61DFFEC800011049D /* LaunchScreen.storyboard */; };
 		502435B31DFFEC800011049D /* iOSAutoBuildFastLaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502435B21DFFEC800011049D /* iOSAutoBuildFastLaneTests.swift */; };
+		502435BE1DFFED090011049D /* NumberOperationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502435BD1DFFED090011049D /* NumberOperationUtility.swift */; };
+		502435BF1DFFED090011049D /* NumberOperationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502435BD1DFFED090011049D /* NumberOperationUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		502435AE1DFFEC800011049D /* iOSAutoBuildFastLaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAutoBuildFastLaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		502435B21DFFEC800011049D /* iOSAutoBuildFastLaneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAutoBuildFastLaneTests.swift; sourceTree = "<group>"; };
 		502435B41DFFEC800011049D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		502435BD1DFFED090011049D /* NumberOperationUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberOperationUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 			children = (
 				5024359D1DFFEC800011049D /* AppDelegate.swift */,
 				5024359F1DFFEC800011049D /* ViewController.swift */,
+				502435BD1DFFED090011049D /* NumberOperationUtility.swift */,
 				502435A11DFFEC800011049D /* Main.storyboard */,
 				502435A41DFFEC800011049D /* Assets.xcassets */,
 				502435A61DFFEC800011049D /* LaunchScreen.storyboard */,
@@ -203,6 +207,7 @@
 			files = (
 				502435A01DFFEC800011049D /* ViewController.swift in Sources */,
 				5024359E1DFFEC800011049D /* AppDelegate.swift in Sources */,
+				502435BE1DFFED090011049D /* NumberOperationUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				502435B31DFFEC800011049D /* iOSAutoBuildFastLaneTests.swift in Sources */,
+				502435BF1DFFED090011049D /* NumberOperationUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
