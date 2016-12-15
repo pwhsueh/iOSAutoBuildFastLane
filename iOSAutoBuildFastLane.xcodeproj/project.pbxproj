@@ -151,7 +151,7 @@
 					502435991DFFEC800011049D = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = D5SNDYZ6G9;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					502435AD1DFFEC800011049D = {
 						CreatedOnToolsVersion = 8.1;
@@ -345,11 +345,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Powen Hsueh (D5SNDYZ6G9)";
 				DEVELOPMENT_TEAM = D5SNDYZ6G9;
 				INFOPLIST_FILE = iOSAutoBuildFastLane/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bowen.iOSAutoBuildFastLane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "760d4490-f838-4ee5-8abd-7ff9ea0d21bb";
+				PROVISIONING_PROFILE_SPECIFIER = iOSAutoBuildFastLane_Dis;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -358,11 +361,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Powen Hsueh (D5SNDYZ6G9)";
 				DEVELOPMENT_TEAM = D5SNDYZ6G9;
 				INFOPLIST_FILE = iOSAutoBuildFastLane/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bowen.iOSAutoBuildFastLane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "760d4490-f838-4ee5-8abd-7ff9ea0d21bb";
+				PROVISIONING_PROFILE_SPECIFIER = iOSAutoBuildFastLane_Dis;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -416,6 +422,7 @@
 				502435B91DFFEC800011049D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		502435BA1DFFEC800011049D /* Build configuration list for PBXNativeTarget "iOSAutoBuildFastLaneTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				502435BC1DFFEC800011049D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
